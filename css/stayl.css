@@ -1,0 +1,351 @@
+.avatar {
+    width: 40px;
+}
+
+.text-dark {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.text-dark span {
+    color: #7F22FE;
+}
+
+.text-muted {
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #6a7282;
+}
+
+.boooooook {
+    width: fit-content;
+    background-color: #6533FA;
+    padding: 7px 10px;
+}
+
+.navbar-brand {
+    width: 15%;
+}
+
+.add-contact {
+    width: fit-content;
+    background-color: #7B26FE;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+
+
+}
+
+.add-contact:hover {
+    box-shadow: 0px 5px 7px #b792ef;
+    transform: translatey(-2px);
+
+}
+
+.seting {
+    padding: 5px;
+}
+
+.seting:hover {
+    color: black !important;
+    background-color: #F3F4F6;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.pepol {
+    width: fit-content;
+    background-color: #2374FF;
+
+}
+
+.star {
+    width: fit-content;
+    background: linear-gradient(to right, #FFA800, #FF7300);
+}
+
+.heart {
+    width: fit-content;
+    background-color: red;
+}
+
+
+.Total {
+    font-family: "Inter", sans-serif;
+
+    color: #6a7282;
+}
+
+.zero {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.one-div {
+    background-color: #ffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(236, 228, 228);
+    transition: all 0.8s;
+
+}
+
+.one-div:hover {
+    box-shadow: 1px 3px 4px rgb(180, 176, 176);
+}
+
+.coloooor {
+    background-color: #F8FAFC;
+}
+
+.w-img {
+    width: 20px;
+}
+
+.phoooooooon {
+    width: fit-content;
+    background-color: #DBEAFE;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.emeeeel {
+    width: fit-content;
+    background-color: #EDE9FE;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.looooooca {
+    width: fit-content;
+    background-color: #D0FAE5;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.frindes {
+    font-family: "Inter", sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    color: #008236;
+    background-color: greenyellow;
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.phoone {
+    width: fit-content;
+    background-color: #D0FAE5;
+    padding: 6px 10px;
+    border-radius: 10px;
+    color: rgb(29, 206, 8);
+}
+
+.phoone:hover {
+    color: green;
+    background-color: #D0FAE5;
+}
+
+.emy {
+    width: fit-content;
+    background-color: #EDE9FE;
+    padding: 6px 10px;
+    border-radius: 10px;
+    color: rgb(121, 8, 206);
+
+
+}
+
+.emy:hover {
+    color: yellow;
+
+}
+
+
+.booooor {
+    border-top: 1px solid gainsboro;
+    background-color: #FAFBFC;
+}
+
+.boooooox:hover {
+    box-shadow: 0px 3px 2px gainsboro;
+    
+}
+
+.dely {
+    padding: 5px 10px;
+}
+
+.peeeeeen {
+    padding: 5px 10px;
+}
+
+.haaaaaaaart {
+    padding: 5px 10px;
+}
+
+.staaaaaar {
+    padding: 5px 10px;
+}
+
+
+
+
+.dely:hover {
+    width: fit-content;
+    background-color: #FFF1F2;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: red;
+}
+
+.peeeeeen:hover {
+    width: fit-content;
+    background-color: #EEF2FF;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: blue;
+}
+
+.haaaaaaaart:hover {
+    width: fit-content;
+    background-color: #F3F4F6;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: red;
+}
+
+.staaaaaar:hover {
+    width: fit-content;
+    background-color: #F3F4F6;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: yellow;
+}
+
+.w-img {
+    width: 40px;
+}
+
+.nameee {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.form-control {
+    border-color: #8a2be2;
+
+}
+
+.form-control:focus {
+    border-color: #8a2be2 !important;
+    box-shadow: 0 0 0 0.25rem rgba(138, 43, 226, 0.25) !important;
+    outline: 0;
+}
+
+.Quick {
+    font-family: "Inter", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: #6a7282;
+}
+
+.Favorites {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.staar {
+    width: fit-content;
+    background: linear-gradient(to right, #FFA800, #FF7300);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.top-lift {
+    background-color: #FFFBEB;
+}
+
+.buououot {
+    background-color: rgb(255, 254, 254);
+    border-radius: 15px;
+}
+
+.buououot:hover {
+    background-color: #FFFBEB;
+
+}
+
+.buououot:hover .mobil {
+    background-color: #008236;
+    color: white;
+}
+
+.mobil {
+    width: fit-content;
+    background-color: #D0FAE5;
+    padding: 6px 10px;
+    border-radius: 10px;
+    color: rgb(29, 206, 8);
+}
+
+.bordaaar {
+    border: 1px solid rgb(207, 203, 203);
+}
+
+.harteeeee {
+    width: fit-content;
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.but-lift {
+    background-color: #FEF2F2
+}
+
+.mobileee {
+    width: fit-content;
+    background-color: #FEF2F2;
+    padding: 6px 10px;
+    border-radius: 10px;
+    color: red;
+}
+
+.buououoteee:hover {
+    background-color: #FFF1F2;
+}
+
+.buououoteee:hover .mobileee {
+    background-color: red;
+    color: white;
+}
+
+.buououoteee {
+    background-color: rgb(253, 252, 252);
+    border-radius: 15px;
+}
+.bg-opacity-10{
+    background-color: blue;
+}
+.req{
+    color: red;
+}
+.save{
+    background:linear-gradient(to right,#7927FD,#5239F7) !important ;
+}
+.modal{
+    height: 700px !important;
+    
+}
+
+

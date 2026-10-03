@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="css/stayl.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Xanh+Mono:ital@0;1&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm py-3 px-4">
+        <div class="container d-flex justify-content-between align-items-center naaaavbaaar ">
+
+            <a class="navbar-brand d-flex align-items-center    m-0" href="#">
+                <div class="boooooook rounded-3">
+                    <i class="fa-solid  fa-sm fa-address-book" style="color: rgb(242, 243, 246);"></i>
+
+                </div>
+                <div class=" ms-2">
+                    <h5 class="m-0 fw-bold text-dark">Contact<span>Hub</span></h5>
+                    <small class="text-muted  ">Smart Contact Manager</small>
+                </div>
+            </a>
+
+
+
+
+            <div class="d-flex align-items-center ms-auto " id="navbarText">
+                <ul class="navbar-nav d-flex flex-row align-items-center gap-3 mb-0">
+
+
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary " href="#">
+                            <button class="text-white add-contact p-2 rounded-3 ps-3 pe-3" data-bs-toggle="modal"
+                                data-bs-target="#addContactModal">
+                                + Add Contact
+                            </button>
+
+
+                        </a>
+                    </li>
+
+
+
+                    <li class="nav-item seting ">
+                        <a class="nav-link  " href="#">
+                            <i class="fa-solid fa-bell "></i>
+
+
+                        </a>
+                    </li>
+
+                    <li class="nav-item seting">
+                        <a class="nav-link  " href="#">
+                            <i class="fa-solid  fa-gear"></i>
+
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary " href="#">
+                            <div class="rounded-3 overflow-hidden avatar">
+                                <img class="w-100 h-100 object-fit-cover" src="img/avatar-4 (1).jpg" alt="Profile">
+                            </div>
+
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <main>
+        <section class="coloooor pt-5 pb-5">
+            <div class="container">
+                <div class="row gy-5 ">
+                    <div class="col-md-6 col-lg-4 ">
+                        <Div class="d-flex align-items-center one-div">
+                            <div class="pepol p-3 rounded-3">
+                                <i class="fa-solid fa-users" style="color: rgb(242, 243, 246);"></i>
+
+                            </div>
+                            <div class="ms-2">
+                                <span class="Total">Total</span><br>
+                                <span class="zero">0</span>
+                            </div>
+                        </Div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 ">
+                        <Div class="d-flex align-items-center one-div">
+                            <div class="star p-3 rounded-3">
+                                <i class="fa-solid fa-star" style="color: rgb(242, 243, 246);"></i>
+
+
+                            </div>
+                            <div class="ms-2">
+                                <span class="Total">Favorites</span><br>
+                                <span class="zero">0</span>
+                            </div>
+                        </Div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 ">
+                        <Div class="d-flex align-items-center one-div">
+                            <div class="heart p-3 rounded-3">
+                                <i class="fa-solid  fa-heart-pulse" style="color: rgb(242, 243, 246);"></i>
+
+
+                            </div>
+                            <div class="ms-2">
+                                <span class="Total">Emergency</span><br>
+                                <span class="zero">0</span>
+                            </div>
+                        </Div>
+                    </div>
+
+
+                </div>
+                <br>
+                <Div class="row gy-5  ">
+                    <div class="col-md-12 col-lg-8">
+                        <Div>
+                            <h2>All Contacts</h2>
+                            <p>Manage and organize your 1 contacts</p>
+                        </Div>
+                        <br>
+                        <Div>
+                            <input type="search" oninput="serach()" class="form-control"
+                                placeholder="search by name ,phon ,or emial" name="" id="serach">
+                        </Div>
+                        <br>
+                        <div class="row " id="mohamed">
+                            <div class="col-5 p-3 rounded-4 boooooox bg-white ">
+                                <div class="d-flex align-items-center ">
+                                    <Div class="w-img me-2 ">
+                                        <img src="img/avatar-4 (1).jpg" class="w-100 rounded-3" alt="your img">
+
+                                    </Div>
+                                    <div>
+                                        <div class="nameee"><span>name</span></div>
+                                        <div>
+                                            <span class="phoooooooon"><i class="fa-solid fa-phone fa-2xs"
+                                                    style="color: rgb(8, 70, 206);"></i></span>
+                                            <span>phone</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <br>
+                                <div>
+                                    <span class="emeeeel"><i class="fa-solid fa-envelope fa-2xs"
+                                            style="color: rgb(121, 8, 206);"></i></span>
+                                    <span>emeil</span>
+                                </div>
+                                <br>
+                                <div>
+                                    <span class="looooooca"><i class="fa-solid fa-location-dot fa-2xs"
+                                            style="color: rgb(29, 206, 8);"></i></span>
+                                    <span>location</span>
+
+                                </div>
+                                <br>
+                                <div>
+                                    <span class="frindes">frindes</span>
+                                </div>
+                                <br>
+                                <div class="d-flex align-items-center justify-content-between booooor pt-2">
+                                    <div class="d-flex align-items-center  justify-content-evenly w-25">
+                                        <div class="phoone"><i class="fa-solid fa-phone fa-xs"></i></div>
+                                        <div class="emy"><i class="fa-solid fa-envelope fa-xs"></i></div>
+                                    </div>
+                                    <div class="d-flex align-items-center text-secondary   ">
+                                        <div class="staaaaaar"><i class="fa-regular fa-star fa-xs"></i></div>
+                                        <div class="haaaaaaaart d-none"><i class="fa-regular  fa-heart fa-xs"></i></div>
+                                        <div class="haaaaaaaart d-none"><i class="fa-regular  fa-heart fa-xs"></i></div>
+                                        <div class="peeeeeen"><i class="fa-solid fa-pen fa-xs"></i></div>
+                                        <div class="dely"><i class="fa-solid fa-trash fa-xs"></i></div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-4">
+                        <div class="col-12 bordaaar rounded-4 ">
+                            <div class="d-flex p-3 rounded-4 top-lift align-items-center">
+                                <Div class="staar me-2"><i class="fa-solid fa-star"
+                                        style="color: rgb(248, 245, 243);"></i></Div>
+                                <Div>
+                                    <span class="Favorites">Favorites</span><br>
+                                    <span class="Quick">Quick access to starred contacts</span>
+                                </Div>
+                            </div>
+                            <div class="pt-3 pb-3" id="sttttar">
+                                <div
+                                    class="d-flex align-items-center justify-content-between w-75 m-auto  p-2  buououot">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-img me-2">
+                                            <img src="img/avatar-4 (1).jpg" class="w-100 rounded-3" alt="your photo">
+                                        </div>
+                                        <div>
+                                            <span class="nameee">name</span><br>
+                                            <span>pohone</span>
+                                        </div>
+                                    </div>
+                                    <div class="mobil"><i class="fa-solid fa-phone fa-xs"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="col-12 bordaaar rounded-4 ">
+                            <div class="d-flex p-3 rounded-4 but-lift align-items-center">
+                                <Div class="harteeeee me-2"><i class="fa-solid  fa-heart-pulse"
+                                        style="color: rgb(242, 243, 246);"></i></Div>
+                                <Div>
+                                    <span class="Favorites">Emergency</span><br>
+                                    <span class="Quick">Important contacts for urgent calls</span>
+                                </Div>
+                            </div>
+                            <div class="pt-3 pb-3" id="herttt">
+                                <div
+                                    class="d-flex align-items-center justify-content-between w-75 m-auto  p-2  buououoteee">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-img me-2">
+                                            <img src="img/avatar-4 (1).jpg" class="w-100 rounded-3" alt="your photo">
+                                        </div>
+                                        <div>
+                                            <span class="nameee">name</span><br>
+                                            <span>pohone</span>
+                                        </div>
+                                    </div>
+                                    <div class="mobileee"><i class="fa-solid fa-phone fa-xs"></i></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </Div>
+
+            </div>
+
+        </section>
+    </main>
+
+
+    <div class="modal fade overflow-auto " id="addContactModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content  overflow-hidden border-0 rounded-4">
+
+
+                <div class="modal-header  border-bottom ">
+                    <h5 class="modal-title fw-bold">Add New Contact</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+
+                <div class="modal-body p-4">
+
+
+                    <div class="text-center mb-4">
+                        <div class="position-relative d-inline-block">
+                            <div class="rounded-circle  bg-opacity-10 d-flex align-items-center justify-content-center mx-auto"
+                                style="width: 90px; height: 90px;">
+                                <i class="fa-solid fa-user fs-1 text-white"></i>
+                            </div>
+                            <div class=" mb-3">
+                                <input type="file" name="ProductImage" id="ProductImage" placeholder="" />
+
+
+
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+
+                    <form onsubmit="addprodact(event)">
+                        <div class="mb-3">
+                            <label class="form-label text-muted small fw-bold" for="fnam">Full Name <span
+                                    class="req">*</span></label>
+                            <input type="text" oninput="validation(this,'msgname')" class="form-control" id="fnam"
+                                name="fnam" placeholder="Enter full name">
+                            <p class="text-danger mt-1 d-none" id="msgname">Name should contain only letters and spaces
+                                (2-50 characters) </p>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label text-muted small fw-bold" for="phon">Phone Number <span
+                                    class="req">*</span> </label>
+                            <input type="number" oninput="validation(this,'msgnumber')" class="form-control" id="phon"
+                                name="phon" placeholder="e.g., 01012345678">
+                            <p class=" text-danger mt-1 d-none" id="msgnumber">Please enter a valid Egyptian phone
+                                number </p>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label text-muted small fw-bold" for="emil">Email Address</label>
+                            <input type="email" oninput="validation(this,'msgemeil')" class="form-control" id="emil"
+                                name="emil" placeholder="name@example.com">
+                            <p class="text-danger mt-1 d-none" id="msgemeil">Please enter a valid email address </p>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label text-muted small fw-bold" for="adrees">Address</label>
+                            <input type="text" class="form-control" id="adrees" name="adrees"
+                                placeholder="Enter address">
+
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label text-muted small fw-bold" for="group">Group</label>
+                            <select name="group" class="form-control" id="group">
+                                <option value="select" selected>select a group</option>
+                                <option value="family">Family</option>
+                                <option value="frindes">frindes</option>
+                                <option value="work">work</option>
+                                <option value="school">school</option>
+                                <option value="athor">athor</option>
+                            </select>
+
+                        </div>
+                        <Div class="mb-3">
+                            <label class="form-label text-muted small fw-bold" for="not">Notes</label>
+                            <textarea placeholder="Add Notes about this contact" class="form-control" name="not"
+                                id="not"></textarea>
+
+                        </Div>
+                        <span class="mb-3">
+                            <input type="checkbox" id="Favorite" name="Favorite">
+
+                            <label class="form-label text-muted small fw-bold" for="Favorite">
+                                <i class="fa-solid fa-star fa-xs" style="color: rgb(255, 212, 59);"></i>
+                                Favorite
+                            </label>
+                        </span>
+
+                        <span class="mb-3">
+                            <input type="checkbox" id="Emergency" name="Emergency">
+
+                            <label class="form-label text-muted small fw-bold" for="Emergency">
+                                <i class="fa-solid fa-heart-pulse fa-xs" style="color: rgb(255, 59, 59);"></i>
+                                Emergency
+                            </label>
+                        </span>
+
+
+
+                        <div class="d-flex justify-content-end gap-2 mt-4">
+                            <button type="button" class="btn btn-light px-4 col-6"
+                                data-bs-dismiss="modal">Cancel</button>
+                            <button type="submit" id="add" class="btn btn-primary save px-4 col-6"><i
+                                    class="fa-solid fa-check fa-2xs" style="color: rgb(246, 243, 243);"></i>Save
+                                Contact</button>
+                            <button type="button" id="uppppp" onclick="apdat()"
+                                class="btn btn-primary save d-none px-4 col-6"><i class="fa-solid fa-check fa-2xs"
+                                    style="color: rgb(246, 243, 243);"></i>Save
+                                Contact</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
